@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+		<!-- This Defines The File Path -->
+		<property name="USER_HOME" value= "${catalina.home}/webapps/conti/src/main/webapp/WEB-INF/" />
+
+		<appender name="FILE-THREAD" class="ch.qos.logback.classic.sift.SiftingAppender">
+
+		<!-- This is MDC value -->
+		<!-- We will assign a value to 'logFileName' via Java code -->
+		<discriminator>
+			<key>logFileName</key>
+			<defaultValue>Conti</defaultValue>
+		</discriminator>
+	
+		<sift>
+
+			 <!-- A standard RollingFileAppender, the log file is based on 'logFileName' at runtime  -->			 
+		  <appender name="FILE-${logFileName}"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<file>${USER_HOME}/${logFileName}.log</file>
+			<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+				<Pattern>
+					%d{yyyy-MM-dd HH:mm:ss} %mdc %X{logFileName} [%thread] %level %logger{35} - %msg%n
+				</Pattern>
+			</encoder>
+	
+		  	 <!-- Trigger's when the file reaches 50 mb  -->
+		 	<triggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+				<MaxFileSize>50MB</MaxFileSize>
+			</triggeringPolicy>
+			
+			 <!-- A standard RollingFileAppender, the log file is based on 'logFileName' at runtime  -->
+			<rollingPolicy
+				class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+				<FileNamePattern>${USER_HOME}/${logFileName}.%i.log
+				</FileNamePattern>
+				<MinIndex>1</MinIndex>
+				<MaxIndex>1</MaxIndex>
+			</rollingPolicy>
+		</appender>
+		
+
+
+		</sift>
+	</appender>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout"> 
+			<Pattern>
+				%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n
+			</Pattern>
+		</layout> 
+	</appender>
+
+
+	<root level="all">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE-THREAD" />
+	</root>
+
+</configuration>
