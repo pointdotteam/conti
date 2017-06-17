@@ -90,7 +90,7 @@
                 		<span>Confirm Password</span>
                 		<input type="text" class="form-control">
                 		
-                		<span>Confirm Password</span>
+                		<span>Role Name</span>
                 		<select class="form-control">
                 				<option>Driver</option>
                 				<option>Staff</option>
