@@ -52,7 +52,7 @@ public class AppConfig {
 	public BasicDataSource dataSource() {		
 		BasicDataSource ds = new BasicDataSource();
 	    ds.setDriverClassName("com.mysql.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://192.168.0.3:3306/conti_2017");
+		ds.setUrl("jdbc:mysql://192.168.1.3:3306/conti_2017");
 		ds.setUsername("root");
 		ds.setPassword("admin");
 		return ds;

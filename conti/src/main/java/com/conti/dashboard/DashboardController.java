@@ -76,7 +76,7 @@ public class DashboardController {
 			}
 			model.addObject("title", "CONTI");
 			model.addObject("message", "This page is for ROLE_ADMIN only!");
-			model.setViewName("admin");
+			model.setViewName("Dashboard/dashboard");
 
 			
 		} catch (Exception exception) {
