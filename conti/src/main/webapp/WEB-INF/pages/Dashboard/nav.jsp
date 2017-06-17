@@ -13,18 +13,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conti</title>
     <!-- Bootstrap Styles-->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="resources/built-in/assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FontAwesome Styles-->
-    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="resources/built-in/assets/css/font-awesome.css" rel="stylesheet" />
 	
 	 
     <!-- Morris Chart Styles-->
-    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <link href="resources/built-in/assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
     <!-- Custom Styles-->
-    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <link href="resources/built-in/assets/css/custom-styles.css" rel="stylesheet" />
     <!-- Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="assets/js/Lightweight-Chart/cssCharts.css"> 
+    <link rel="stylesheet" href="resources/built-in/assets/js/Lightweight-Chart/cssCharts.css"> 
 	
 	
 </head>
@@ -278,7 +278,7 @@
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a class="active-menu" href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a>
+                        <a class="active-menu" href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
                     </li>
 					
 					 <li>
@@ -289,7 +289,7 @@
                                 <a href="#">General Settings<span class="fa arrow"></span></a>
                                 <ul class="nav nav-third-level">
                                     <li>
-                                        <a href="#">Company Setting</a>
+                                        <a href="company_settings">Company Setting</a>
                                     </li>
                                     <li>
                                         <a href="#">User Master</a>
@@ -306,25 +306,25 @@
                                 <a href="#">Masters<span class="fa arrow"></span></a>
                                 <ul class="nav nav-third-level">
                                     <li>
-                                        <a href="#">Product Master</a>
+                                        <a href="product">Product Master</a>
                                     </li>
                                     <li>
-                                        <a href="#">Location Master</a>
+                                        <a href="location">Location Master</a>
                                     </li>
                                     <li>
-                                        <a href="master_branch.jsp">Branch Master</a>
+                                        <a href="branch">Branch Master</a>
                                     </li>
 									
 									 <li>
-                                        <a href="#">Service Master</a>
+                                        <a href="service">Service Master</a>
                                     </li> 
 									
 									<li>
-                                        <a href="#">Vehicle Master</a>
+                                        <a href="vehicle">Vehicle Master</a>
                                     </li> 
 									
 									<li>
-                                        <a href="master_employee.jsp">Employee Master</a>
+                                        <a href="employee">Employee Master</a>
                                     </li>
 
                                 </ul>
@@ -337,7 +337,7 @@
                     </li>
 					
                     <li>
-                        <a href="#"><i class="fa fa-user"></i> Customer</a>
+                        <a href="customer"><i class="fa fa-user"></i> Customer</a>
                     </li>
 					<li>
                         <a href="#"><i class="fa fa-truck"></i> Shipment Management<span class="fa arrow"></a>
@@ -393,24 +393,24 @@
     <!-- /. WRAPPER  -->
     <!-- JS Scripts-->
     <!-- jQuery Js -->
-    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="resources/built-in/assets/js/jquery-1.10.2.js"></script>
     <!-- Bootstrap Js -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="resources/built-in/assets/js/bootstrap.min.js"></script>
 	 
     <!-- Metis Menu Js -->
-    <script src="assets/js/jquery.metisMenu.js"></script>
+    <script src="resources/built-in/assets/js/jquery.metisMenu.js"></script>
     <!-- Morris Chart Js -->
-    <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
-    <script src="assets/js/morris/morris.js"></script>
+    <script src="resources/built-in/assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="resources/built-in/assets/js/morris/morris.js"></script>
 	
 	
-	<script src="assets/js/easypiechart.js"></script>
-	<script src="assets/js/easypiechart-data.js"></script>
+	<script src="resources/built-in/assets/js/easypiechart.js"></script>
+	<script src="resources/built-in/assets/js/easypiechart-data.js"></script>
 	
-	 <script src="assets/js/Lightweight-Chart/jquery.chart.js"></script>
+	 <script src="resources/built-in/assets/js/Lightweight-Chart/jquery.chart.js"></script>
 	
     <!-- Custom Js -->
-    <script src="assets/js/custom-scripts.js"></script>
+    <script src="resources/built-in/assets/js/custom-scripts.js"></script>
 
 
 </body>
