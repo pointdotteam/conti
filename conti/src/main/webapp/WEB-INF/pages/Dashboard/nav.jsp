@@ -292,7 +292,7 @@
                                         <a href="company_settings">Company Setting</a>
                                     </li>
                                     <li>
-                                        <a href="#">User Master</a>
+                                        <a href="user">User Master</a>
                                     </li>
                                     <li>
                                         <a href="#">Price Setting</a>

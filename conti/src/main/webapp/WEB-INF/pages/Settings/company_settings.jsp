@@ -86,15 +86,132 @@
              
                 	</div>                	
                 	
-                	<div class="col-lg-3">
-                			<button type="button" class="btn btn-success pull-right">Save</button>
-                	</div>
-                	
-                	<div class="col-lg-3">
-                		
+                	<div class="col-lg-3" style="padding-top:75px;">
+                			<button type="button" class="btn btn-success pull-right">Update</button>               			
+                			
+                	</div>                	
+                	<div class="col-lg-3">                		
                 	</div>  
                 </div>
                 </div>
+                
+                
+                 <div class="row">
+                    <div class="col-lg-12">
+                       <div class="col-lg-3">
+                       		<b class="pull-right company-font">Company Informations</b>
+                       </div>
+                       <div class="col-lg-3">
+                       		
+                       </div>
+                       <div class="col-lg-3">
+                       </div>
+                       <div class="col-lg-3">
+                       		<i class="fa fa-pencil-square-o fa-2x pull-right"></i>
+                       </div>					
+                    </div>
+                </div>
+                
+                
+                <div class="row customer-field">
+                <div class="col-lg-12">
+                
+                	<div class="col-lg-3">
+                	
+                	</div>  
+                	
+                	<div class="col-lg-3">
+                		<span>Company Name</span>
+                		<input type="text" class="form-control">
+                		
+                		<span>Company Address</span>
+                		<input type="text" class="form-control">
+                		
+                		<span>Phone Number</span>
+                		<input type="text" class="form-control">
+                		
+                		<span>Mail</span>
+                		<input type="text" class="form-control">
+                		
+                		<span>Contact Person</span>
+                		<input type="text" class="form-control">
+             
+                	</div>                	
+                	
+                	<div class="col-lg-3">
+                			
+                			
+                			              			
+                			
+                	</div>                	
+                	<div class="col-lg-3">  
+                	
+                			<button type="button" class="btn btn-success pull-right">Update</button> 
+                				              		
+                	</div>  
+                </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                <div class="row">
+                    <div class="col-lg-12">
+                       <div class="col-lg-3">
+                       		<b class="pull-right company-font">Other Setting</b>
+                       </div>
+                       <div class="col-lg-3">
+                       		
+                       </div>
+                       <div class="col-lg-3">
+                       </div>
+                       <div class="col-lg-3">
+                       		<i class="fa fa-pencil-square-o fa-2x pull-right"></i>
+                       </div>
+							
+						
+                    </div>
+                </div>
+                
+                <div class="row customer-field">
+                <div class="col-lg-12">
+                
+                	<div class="col-lg-3">
+                	
+                	</div>  
+                	
+                	<div class="col-lg-3">
+                		<span>Default Time Zone</span>
+                		<input type="text" class="form-control">
+                		
+                		<span>Exp.No.of.days for Delivery</span>
+                		<input type="text" class="form-control">
+                		
+                		<span>Tax GST %</span>
+                		<input type="text" class="form-control">
+                		
+                		<span>Application Time Out(mins)</span>
+                		<input type="text" class="form-control">
+             
+                	</div>                	
+                	
+                	<div class="col-lg-3" style="padding-top:180px;">
+                			<button type="button" class="btn btn-success pull-right">Save</button>               			
+                			
+                	</div>                	
+                	<div class="col-lg-3">                		
+                	</div>  
+                </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
                 
                 
                <br>
