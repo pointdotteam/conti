@@ -211,7 +211,7 @@
     
   <!--   <script src="js/trouserDrawer.js"></script>-->
     <script src="resources/custom/js/custom.js"></script>
-  
+  	<script src="resources/custom/js/session.js"></script>
 
 </body>
 

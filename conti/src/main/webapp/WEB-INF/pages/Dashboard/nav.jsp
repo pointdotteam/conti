@@ -11,6 +11,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="_csrf" content="${_csrf.token}" />
+	<meta name="_csrf_header" content="${_csrf.headerName}" />
+	
     <title>Conti</title>
     <!-- Bootstrap Styles-->
     <link href="resources/built-in/assets/css/bootstrap.css" rel="stylesheet" />
@@ -340,14 +344,14 @@
                         <a href="customer"><i class="fa fa-user"></i> Customer</a>
                     </li>
 					<li>
-                        <a href="#"><i class="fa fa-truck"></i> Shipment Management<span class="fa arrow"></a>
+                        <a href="#"><i class="fa fa-truck"></i> Shipment Management<i class="fa arrow"></i></a>
 						
 						<ul class="nav nav-third-level">
                                     <li>
                                         <a href="add_shipment">Add Shipment</a>
                                     </li>
                                     <li>
-                                        <a href="#">View  Shipment</a>
+                                        <a href="view_shipment">View  Shipment</a>
                                     </li>
                                     
 
@@ -411,7 +415,7 @@
 	
     <!-- Custom Js -->
     <script src="resources/built-in/assets/js/custom-scripts.js"></script>
-
+	<script src="resources/custom/js/session.js"></script>
 
 </body>
 
