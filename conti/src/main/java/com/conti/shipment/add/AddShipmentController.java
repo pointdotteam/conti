@@ -1,4 +1,4 @@
-package com.conti.shipmentadd;
+package com.conti.shipment.add;
 
 
 import javax.servlet.http.HttpServletRequest;

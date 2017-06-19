@@ -340,14 +340,14 @@
                         <a href="customer"><i class="fa fa-user"></i> Customer</a>
                     </li>
 					<li>
-                        <a href="#"><i class="fa fa-truck"></i> Shipment Management<span class="fa arrow"></a>
+                        <a href="#"><i class="fa fa-truck"></i> Shipment Management<i class="fa arrow"></i></a>
 						
 						<ul class="nav nav-third-level">
                                     <li>
                                         <a href="add_shipment">Add Shipment</a>
                                     </li>
                                     <li>
-                                        <a href="#">View  Shipment</a>
+                                        <a href="view_shipment">View  Shipment</a>
                                     </li>
                                     
 
