@@ -124,10 +124,8 @@
 	                                    <thead>
 	                                        <tr>
 	                                          
-	                                            <th>From Branch</th>
-	                                            <th>Weight Range</th>
-	                                            <th></th>
-	                                            <th></th>
+	                                            <th>To Branch</th>
+	                                            <th colspan="3">Weight Range</th>	                                         
 	                                            <th>Price</th>
 	                                        </tr>
 	                                    </thead>
