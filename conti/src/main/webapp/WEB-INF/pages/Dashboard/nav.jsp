@@ -43,13 +43,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><strong>Conti</strong></a>
+                <a class="navbar-brand" href="/Conti/"><strong>Conti</strong></a>
 				
 		
             </div>
 
            <ul class="nav navbar-top-links navbar-right">
-               <!--  <li class="dropdown">
+              <!--  <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
                         <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
@@ -100,7 +100,7 @@
                    
                 </li>-->
              
-               <!--  <li class="dropdown">
+              <!--   <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
                         <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
@@ -179,7 +179,7 @@
                     
                 </li>-->
               
-                <!-- <li class="dropdown">
+                 <!-- <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
                         <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
@@ -278,7 +278,7 @@
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a class="active-menu" href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
+                        <a class="active-menu" href="/Conti/"><i class="fa fa-dashboard"></i> Dashboard</a>
                     </li>
 					
 					 <li>
@@ -344,7 +344,7 @@
 						
 						<ul class="nav nav-third-level">
                                     <li>
-                                        <a href="#">Add Shipment</a>
+                                        <a href="add_shipment">Add Shipment</a>
                                     </li>
                                     <li>
                                         <a href="#">View  Shipment</a>
