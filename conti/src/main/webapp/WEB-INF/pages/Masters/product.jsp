@@ -85,8 +85,8 @@
 			               <div class="col-lg-6 col-lg-offset-1">
 		                 	 			               
                                <b><span>Dimension Setup 
-                                <input type="checkbox">Yes 
-                                <input type="checkbox">No
+                               <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">Yes
+                               <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">No
                                 </span>
                                </b>
                                

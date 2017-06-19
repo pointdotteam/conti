@@ -295,7 +295,7 @@
                                         <a href="user">User Master</a>
                                     </li>
                                     <li>
-                                        <a href="#">Price Setting</a>
+                                        <a href="price_settings">Price Setting</a>
                                     </li>
 
                                 </ul>
@@ -357,7 +357,7 @@
                         <a href="#"><i class="fa fa-qrcode"></i> Manifest Management<span class="fa arrow"></a>
 							<ul class="nav nav-third-level">
 								<li>
-									<a href="#">Add Manifest</a>
+									<a href="add_manifest">Add Manifest</a>
 								</li>
 							
 							</ul>
@@ -367,12 +367,12 @@
                         <a href="#"><i class="fa fa-file-text-o"></i> Receipt Management <span class="fa arrow"></a>
 						   <ul class="nav nav-third-level">
 							<li>
-								<a href="#">Receipt Generation</a>
+								<a href="receipt_generate">Receipt Generation</a>
 							</li>
 							</ul>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-flag"></i> Reports </a>
+                        <a href="report"><i class="fa fa-flag"></i> Reports </a>
                     </li>
                 </ul>
 
