@@ -344,7 +344,7 @@
 						
 						<ul class="nav nav-third-level">
                                     <li>
-                                        <a href="#">Add Shipment</a>
+                                        <a href="add_shipment">Add Shipment</a>
                                     </li>
                                     <li>
                                         <a href="#">View  Shipment</a>
