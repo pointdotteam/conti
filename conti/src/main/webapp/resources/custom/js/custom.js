@@ -3,13 +3,24 @@
 $('.drawerOpen').click(function(){
 
 
-	$('.overlay').removeClass('hideme');
+	window.setTimeout(function(){	
+		animationOpenClick('.overlay', 'fadeIn');	
+	},750);
 	
-	$('.drawer').removeClass('hideme');
-	$('body').addClass('scrollHidden');
+	window.setTimeout(function(){	
+		$('.overlay').removeClass('hideme');
+	},1400);
 	
+	window.setTimeout(function(){	
+		$('.drawer').removeClass('hideme');
+		$('body').addClass('scrollHidden');
+	},1500);
 
-	animationOpenClick('.drawer', 'bounceInRight');
+	window.setTimeout(function(){	
+		animationOpenClick('.drawer', 'bounceInRight');
+	},1500);
+	
+	
 });
 
 
@@ -32,15 +43,20 @@ $('.drawerClose').click(function(){
 	
 		
 	animationOpenClick('.drawer', 'bounceOutRight');
-	$('.overlay').addClass('hideme');
+	//$('.overlay').addClass('hideme');
 
 	window.setTimeout(function(){							
 	$('.drawer').addClass('hideme');
 	
-	$('body').removeClass('scrollHidden');
 	},1000);
 	
-	
+	window.setTimeout(function(){	
+		animationOpenClick('.overlay', 'fadeOut');	
+	},1200);
+	window.setTimeout(function(){	
+		$('.overlay').addClass('hideme');
+		$('body').removeClass('scrollHidden');
+	},1500);
 	
 });
 // ------------------------------ Drawer Open event
